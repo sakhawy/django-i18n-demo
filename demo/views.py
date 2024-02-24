@@ -1,3 +1,5 @@
-from django.shortcuts import render
+from django.http import HttpResponse
+from django.utils.translation import gettext as _
 
-# Create your views here.
+def hello_world(request):
+    return HttpResponse(_('Hello, World!'))
