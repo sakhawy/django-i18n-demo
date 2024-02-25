@@ -1,0 +1,1 @@
+alert(gettext("Hello, World!"));
